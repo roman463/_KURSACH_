@@ -35,7 +35,7 @@
     text-transform: capitalize;
 }
 
-.inner-collector-banner button p {
+.inner-collector-banner button > {
     padding: 2px 0 0 0;
 }
 
@@ -162,7 +162,7 @@
         padding: 3px 8.5px 0 0;
     }
 
-    .inner-collector-banner button p {
+    .inner-collector-banner button > {
         padding: 2px 0 0 0;
     }
 }
@@ -218,7 +218,7 @@
         padding: 6px 13px 0 0;
     }
 
-    .inner-collector-banner button p {
+    .inner-collector-banner button > {
         padding: 1px 0 0 0;
     }
 
