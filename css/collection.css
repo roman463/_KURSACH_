@@ -30,7 +30,7 @@
 .collection .titles .right-part p:not(.volume),
 .collection .row .right-part p:not(.volume),
 .collection .row .right-part .volume .new,
-.collection .row .left-part .name span:first-of-type {
+.collection .row .left-part .name div:first-of-type {
     display: none;
 }
 
@@ -218,7 +218,7 @@
         font-size: 16.188px;
     }
 
-    .collection .row .left-part .name span:first-of-type {
+    .collection .row .left-part .name div:first-of-type {
         display: block;
     }
 
@@ -226,7 +226,7 @@
     .collection .row .left-part .number,
     .collection .row .right-part .hidden,
     .collection .row .right-part .volume .old,
-    .collection .row .left-part .name span.hidden {
+    .collection .row .left-part .name div.hidden {
         display: none;
     }
 
