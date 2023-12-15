@@ -73,7 +73,8 @@ const titles = document.querySelectorAll('.quest-banner .title')
 if (titles) {
     titles.forEach(title => {
         title.addEventListener('click', (e) => {
-            if (e.target.matches('.quest .title') || e.target.matches('.quest .title p') || e.target.matches('.quest .title svg') || e.target.matches('.quest .title svg circle') || e.target.matches('.quest .title svg rect')) {
+            const target = e.target
+            if (target.matches('.quest .title') || target.matches('.quest .title p') || target.matches('.quest .title svg') || target.matches('.quest .title svg circle') || target.matches('.quest .title svg rect')) {
                 const parent = target.closest('.quest')
                 parent.classList.toggle('opened')
                 let hiddenText = parent.querySelector('.text')
